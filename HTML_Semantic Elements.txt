@@ -54,3 +54,21 @@ Element	Purpose
 <ins>	Represents inserted text.
 
 <del>	Represents deleted text.
+
+
+
+
+
+
+Most Important Semantic Elements for Beginners
+<header>
+<nav>
+<main>
+<section>
+<article>
+<aside>
+<footer>
+<figure>
+<figcaption>
+<details>
+<summary>

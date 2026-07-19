@@ -1,0 +1,56 @@
+Element	Purpose
+<header>	Represents the introductory content or header of a page or section.
+
+<nav>	Contains navigation links.
+
+<main>	Represents the main content of the document (only one per page).
+
+<section>	Defines a thematic section of content.
+
+<article>	Represents a self-contained piece of content (e.g., blog post, news article).
+
+<aside>	Contains related or sidebar content.
+
+<footer>	Represents the footer of a page or section.
+
+<figure>	Groups media (image, diagram, code, etc.) with its caption.
+
+<figcaption>	Provides a caption for a <figure>.
+
+<details>	Creates a collapsible section that users can expand.
+
+<summary>	Defines the visible heading for a <details> element.
+
+<mark>	Highlights or marks important text.
+
+<time>	Represents a specific date or time.
+
+<address>	Contains contact information for the author or owner.
+
+<blockquote>	Represents a long quotation from another source.
+
+<cite>	Specifies the title of a creative work (book, movie, article, etc.).
+
+<q>	Represents a short inline quotation.
+
+<abbr>	Defines an abbreviation or acronym.
+
+<em>	Emphasizes text (typically displayed in italics).
+
+<strong>	Indicates strong importance (typically displayed in bold).
+
+<code>	Represents a fragment of computer code.
+
+<pre>	Displays preformatted text, preserving spaces and line breaks.
+
+<kbd>	Represents user keyboard input.
+
+<samp>	Represents sample output from a program.
+
+<var>	Represents a variable in programming or mathematics.
+
+<dfn>	Indicates the defining instance of a term.
+
+<ins>	Represents inserted text.
+
+<del>	Represents deleted text.

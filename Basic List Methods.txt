@@ -1,0 +1,35 @@
+1. Basic List Methods
+
+Method / Function	Description	                 Example
+append()	  Adds one item at the end of the list	 a.append(10)
+extend()	  Adds multiple items to the end	 a.extend([10, 20])
+insert()	  Adds an item at a specific position	 a.insert(1, 10)
+remove()	  Removes the first occurrence of a value	a.remove(10)
+pop()	          Removes and returns an item	          a.pop()
+clear()	          Removes all items from the list	  a.clear()
+
+2. Finding and Counting Items
+
+Method / Function	Description	                        Example
+index()          	Returns the position/index of an item	a.index(20)
+count()	                Counts how many times an item occurs	a.count(20)
+in	                Checks whether an item exists	        20 in a
+not in	                Checks whether an item does not exist	20 not in a
+
+3. Sorting and Reversing
+Method / Function	Description	Example
+sort()	Sorts the list in ascending order	a.sort()
+sort(reverse=True)	Sorts the list in descending order	a.sort(reverse=True)
+reverse()	Reverses the order of the list	a.reverse()
+sorted()	Returns a new sorted list without changing the original	b = sorted(a)
+4. Useful Built-in Functions
+Function	Description	Example
+len()	Returns the number of items	len(a)
+max()	Returns the largest item	max(a)
+min()	Returns the smallest item	min(a)
+sum()	Returns the total of numeric items	sum(a)
+list()	Creates/converts something into a list	list("Hello")
+5. Copying Lists
+Method / Function	Description	Example
+copy()	Creates a copy of the list	b = a.copy()
+a[:]	Creates a copy using slicing	b = a[:]

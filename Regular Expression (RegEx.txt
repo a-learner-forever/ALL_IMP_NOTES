@@ -1,0 +1,129 @@
+What is a Regular Expression (RegEx)?
+
+A Regular Expression (RegEx) is a pattern used to search, match, or replace text in a string.
+
+
+Real-life example
+
+Suppose you have a class list:
+
+Rahul
+Riya
+Amit
+Rohan
+Priya
+
+If you want all names that start with R, you don't check every name manually. You create a pattern.
+
+That pattern is called a Regular Expression.
+
+==============================================
+
+Why do we use RegEx?
+
+RegEx helps us to
+
+Search text
+Validate user input
+Replace text
+Find patterns
+Extract information
+
+Examples:
+
+Check if email is valid
+Check mobile number
+Find all numbers from a paragraph
+Remove extra spaces
+Replace "cat" with "dog"
+
+
+
+let pattern = /hello/;
+
+let pattern = new RegExp("hello");
+
+
+==============================================
+
+test method: returns true/false
+
+let text = "Hello Students";
+
+let pattern = /Students/;
+
+console.log(pattern.test(text));
+
+
+match method: returns matched text
+
+let str = "I love JavaScript";
+
+console.log(str.match(/JavaScript/));
+
+
+search method: returns position
+
+let str = "I love JavaScript";
+
+console.log(str.search(/JavaScript/));
+
+
+replace method:
+
+let str = "I love Java";
+
+let result = str.replace(/Java/, "JavaScript");
+
+console.log(result);
+
+
+
+============================================
+
+Special Characters
+
+These are the real power of RegEx.
+
+1. Dot (.)
+
+Means any one character (h.t)-> hat, hit etc
+
+2. Star (*)
+
+Means Zero or More (ab*) -> ab* -> a, ab, abb, abbb, etc.
+
+3. Plus (+)
+
+Means One or More (ab+) -> ab, abb, abbb etc.
+
+
+
+
+=============================================
+
+Character Classes
+
+[abc]
+
+Means Any one character
+
+
+Range
+[a-z], [A-Z]
+
+All lowercase, uppercase letters
+
+
+Negation (^ inside square brackets)
+[^0-9]
+
+Means Anything except numbers.
+
+
+
+
+
+
+
+
